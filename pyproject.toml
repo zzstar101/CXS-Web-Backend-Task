@@ -4,4 +4,10 @@ version = "0.1.0"
 description = "传习社 Web 组后端任务"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi>=0.139.2",
+    "pydantic>=2.13.4",
+    "uvicorn>=0.51.0",
+]
+[tool.uv]
+managed = true
