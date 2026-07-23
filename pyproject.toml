@@ -1,0 +1,7 @@
+[project]
+name = "web-backend"
+version = "0.1.0"
+description = "传习社 Web 组后端任务"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
